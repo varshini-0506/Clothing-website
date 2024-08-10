@@ -1,0 +1,97 @@
+*{
+    border:0px;
+    margin:0px;
+}
+
+body{
+    font-family: "Playfair Display", serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(220, 231, 241);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    height:auto;
+    margin:10px;
+    padding: 10px;
+    border: 2px black solid;
+    box-shadow: 4px 4px 4px black ;
+    background-image: linear-gradient(rgb(153, 175, 188),rgb(88, 120, 136));
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.heading h1{
+    color: rgb(36, 36, 74);
+}
+
+.about{
+     font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+.query{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    width:50%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px black solid;
+    box-shadow: 4px 4px 4px black ;
+    background-color: beige;
+}
+
+p,input,button{
+    margin:10px;
+    padding:10px;
+}
+
+input{
+    border:1px black solid;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.help{
+    height: 40px;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    width:100px;
+    border: 2px black solid;
+    color: black;
+    background-color: bisque;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: grey;
+}

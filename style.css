@@ -1,0 +1,330 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    min-height: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    background-color: beige;
+}
+
+/*----------------------------header---------------------------*/
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(37, 37, 62);
+    height: 40px;
+}
+
+.searchbar{
+    align-self: center;
+    background-color: beige;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    width: 30%;
+}
+    
+.search{
+   background-color: beige;
+   border: 0px;    /*to remove the border of input field*/
+   padding-left: 5px;
+   width:100%;
+}
+
+.search:focus{       /*to remove the border in input field while typing*/
+    outline: none;
+}
+
+nav{
+    width: 25%;
+}
+
+#show{
+    display: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    color: beige;
+    list-style-type: none;
+    margin-top: 10px;
+ }
+
+.line:hover{
+    color: rgb(212, 206, 254);
+    border-bottom: 2px rgb(212, 206, 254) solid ;
+}
+
+.material-symbols-outlined:hover{
+    color: rgb(212, 206, 254);
+}
+
+/*---------------------------gif section--------------------------------*/
+
+.gif{
+    width: 100%;
+    height: 600px;
+}
+
+/*----------------------------Gender section-----------------------------*/
+
+section p{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.gender_container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.gender_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20px;
+    width: 25%;
+}
+
+.gender_card>img{
+    width: 80%;
+    height: 50%;
+    border-radius: 100%;
+}
+
+.gender_card>p{
+    color: black;
+    font-size: 20px;
+    margin:10px;
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.gender_card button{
+    background-color:rgb(197, 197, 213) ;
+    color: black;
+    border: 1px black solid;
+    padding: 10px;
+    width: 100px;
+    margin:20px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.gender_card button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(rgb(212, 212, 187),beige);
+    border: 1px rgb(139, 139, 162)solid;
+    color:black;
+}
+
+a{
+    color: beige; 
+    text-decoration: none;
+ }
+
+ /*----------------------------special offers section-------------------------*/
+
+ .prime_post{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://ik.imagekit.io/varsh0506/clothing%20website/Green%20and%20Yellow%20Striped%20Brushstrokes%20Fundraiser%20Ticket.png?updatedAt=1723056862702);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 10px;
+    height: 600px;
+}
+
+.shop_off{
+    border: 1px black solid;
+    color: black;
+    background:transparent ; 
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 350px;
+    padding: 10px;
+    width: 150px;
+}
+
+.shop_off:hover{
+    cursor: pointer;
+    border: 1px white solid;
+    color: white;
+}
+
+/*-----------------------------------------CLOTHES TYPES------------------------------------------*/
+
+.clothes_grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);  
+    grid-template-rows: repeat(2,1fr);
+}
+
+.dress{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dress_img{
+    margin: 20px;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+.dress_img:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.dress_name{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*-----------------------------------------NEWSLETTER---------------------------------------------*/
+
+.newsletter{
+    background-color: rgb(176, 176, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.news_entry{
+    width: 400px;
+    height: 30px;
+    background-color: beige;
+    margin: 20px;
+    padding: 5px;
+}
+
+.news_submit{
+    color: black;
+    border: 2px black solid;
+    background-color: rgb(131, 131, 137);
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.news_submit:hover{
+    cursor: pointer;
+    background-color: rgb(176, 176, 221);
+}
+
+/*---------------------------------------FOOTER------------------------------------------------*/
+
+.contact{
+    background-color: rgb(37, 37, 62);
+    width: 100%;
+}
+
+.follow{
+    color: beige;
+    font-size: 20px;
+}
+
+.socialmedia{
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+span{
+    font-size: 2em;
+    color: beige;
+}
+
+span:hover{
+    cursor: pointer;
+    color: rgb(176, 176, 221);
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright{
+    color: beige;
+    font-size: 15px;
+}
+
+/*-------------------------------------------mediaqueries------------------------------------------------------*/
+
+@media screen and (max-width:700px){
+
+    header .icon{
+        width:15%;
+    }
+
+    #remove{
+        display: none;
+        width:0px;
+        height:0px;
+    }
+
+    #show{
+        display: block;
+    }
+
+    .gif{
+        height: 250px;
+    }
+
+    .clothes_grid{
+        display: grid;
+        grid-template-columns: repeat(2,270px);
+        grid-template-rows: repeat(5,1fr);
+    }
+}
+
+
+
+
+
+
+
+
+

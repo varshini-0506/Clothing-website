@@ -11,7 +11,7 @@ html,body{
 body{
     font-family: "Playfair Display", serif;
     font-weight: 500;
-    background-color: beige;
+    background-color: white;
 }
 
 /*----------------------------header---------------------------*/
@@ -35,7 +35,7 @@ header{
 
 .searchbar{
     align-self: center;
-    background-color: beige;
+    background-color: white;
     border-radius: 20px;
     padding: 5px;
     display: flex;
@@ -43,7 +43,7 @@ header{
 }
     
 .search{
-   background-color: beige;
+   background-color: white;
    border: 0px;    /*to remove the border of input field*/
    padding-left: 5px;
    width:100%;
@@ -227,7 +227,7 @@ a{
 .news_entry{
     width: 400px;
     height: 30px;
-    background-color: beige;
+    background-color: white;
     margin: 20px;
     padding: 5px;
 }

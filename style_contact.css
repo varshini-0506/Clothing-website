@@ -12,7 +12,10 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(220, 231, 241);
+    background-image: url("https://ik.imagekit.io/varsh0506/clothing%20website/contact_bg.jpg?updatedAt=1724512414476");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
 }
 
 .container{
@@ -23,9 +26,9 @@ main{
     height:auto;
     margin:10px;
     padding: 10px;
-    border: 2px black solid;
-    box-shadow: 4px 4px 4px black ;
-    background-image: linear-gradient(rgb(153, 175, 188),rgb(88, 120, 136));
+    border: 2px white solid;
+    box-shadow: 4px 4px 4px white ;
+    backdrop-filter: blur(5px);
 }
 
 .heading{
@@ -60,9 +63,8 @@ a:hover{
     width:50%;
     margin: 10px;
     padding: 10px;
-    border: 2px black solid;
-    box-shadow: 4px 4px 4px black ;
-    background-color: beige;
+    border: 2px white solid;
+    box-shadow: 4px 4px 4px white ;
 }
 
 p,input,button{
@@ -71,7 +73,7 @@ p,input,button{
 }
 
 input{
-    border:1px black solid;
+    border:1px white solid;
     border-radius: 10px;
     width: 90%;
 }
@@ -88,7 +90,8 @@ button{
     width:100px;
     border: 2px black solid;
     color: black;
-    background-color: bisque;
+    background-color: white;
+    border-radius: 20px;
 }
 
 button:hover{

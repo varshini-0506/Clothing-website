@@ -15,7 +15,6 @@ main{
     background-image: url("https://ik.imagekit.io/varsh0506/clothing%20website/pexels-kish-1488463.jpg?updatedAt=1723320784228");
     background-repeat: no-repeat;
     background-size: cover;
-    color: black;
 }
 
 .container{
@@ -44,6 +43,7 @@ main{
 
 .about{
      font-size: 20px;
+    color: black;
 }
 
 a{
@@ -64,6 +64,7 @@ a:hover{
     margin: 10px;
     padding: 10px;
     border: 2px white solid;
+    color: white;
     box-shadow: 4px 4px 4px white ;
 }
 
